@@ -36,7 +36,7 @@ a {
 }
 
 a:visited {
-  color: none;
+  color: transparent ;
 }
 
 body.modelight {
@@ -442,7 +442,7 @@ h2 {
   width: 100%;
 }
 
-.activity figcaption {
+.activity .figcaption {
   display: flex;
   align-items: center;
   height: 3vw;
@@ -889,7 +889,7 @@ footer section a:hover {
     height: 445px;
     width: 100%;
   }
-  .activity figcaption {
+  .activity .figcaption {
     display: flex;
     align-items: center;
     height: 55px;
@@ -1325,7 +1325,7 @@ footer section a:hover {
     height: 23vw;
     width: 100%;
   }
-  .activity figcaption {
+  .activity .figcaption {
     display: flex;
     align-items: center;
     height: 4.8vw;
@@ -1421,7 +1421,7 @@ footer section a:hover {
   header {
     display: flex;
     flex-direction: column;
-    justify-content: none;
+    justify-content: start;
     align-items: center;
   }
   header img {
@@ -1620,7 +1620,7 @@ footer section a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: none;
+    align-items: start;
     height: 330vw;
     margin-bottom: 4vw;
   }
@@ -1800,7 +1800,7 @@ footer section a:hover {
     height: 60vw;
     width: 100%;
   }
-  .activity figcaption {
+  .activity .figcaption {
     display: flex;
     align-items: center;
     height: 12vw;
