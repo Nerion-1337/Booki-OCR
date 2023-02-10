@@ -3,13 +3,14 @@
 Project de formation chez OpenClassRoom.
 
 Langage solicité:
+
 - HTML
 - CSS
 
-
-# Objectif 
+# Objectif
 
 - Maitrise site responsive - desktop + tablette + mobile
+- Sémantique
 - Appréhender maquette figma
 - Base du developpement web
 

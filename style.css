@@ -177,6 +177,7 @@ header nav ul li a:hover {
   border-radius: 25px;
   cursor: pointer;
   transition: 0.5s;
+  background: transparent;
 }
 
 .search .filter .btnFilter:hover {
@@ -1094,6 +1095,7 @@ footer section a:hover {
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
+    background: transparent;
   }
   .search .filter .btnFilter:hover {
     background: #DEEBFF;
@@ -1544,6 +1546,7 @@ footer section a:hover {
     border: 2px solid #d9d9d9;
     border-radius: 6vw;
     cursor: pointer;
+    background: transparent;
   }
   .search .filter .btnFilter i {
     position: absolute;
