@@ -162,7 +162,7 @@ header nav ul li a:hover {
   margin-top: 1.5vw;
 }
 
-.search .filter p {
+.search .filter span {
   font-weight: 800;
   font-size: 1vw;
 }
@@ -171,13 +171,15 @@ header nav ul li a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 0.6vw 0.9vw 0.6vw 1.4vw;
+  padding: 0.6vw 0.9vw 0.6vw 2.9vw;
   margin-left: 1.5vw;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   cursor: pointer;
   transition: 0.5s;
   background: transparent;
+  font-size: 1vw;
+  font-weight: 700;
 }
 
 .search .filter .btnFilter:hover {
@@ -197,12 +199,6 @@ header nav ul li a:hover {
 .search .filter .btnFilter .fa-heart,
 .search .filter .btnFilter .fa-child {
   font-size: 1.2vw;
-}
-
-.search .filter .btnFilter h2 {
-  font-size: 1vw;
-  margin: 0 0 0 1.5vw;
-  z-index: 2;
 }
 
 .search .resultRearch {
@@ -646,7 +642,7 @@ footer section a:hover {
     align-items: center;
     margin-top: 32px;
   }
-  .search .filter p {
+  .search .filter span {
     font-weight: 800;
     font-size: 18px;
   }
@@ -654,12 +650,13 @@ footer section a:hover {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 10px 20px 10px 30px;
+    padding: 10px 20px 10px 50px;
     margin-left: 40px;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 17px;
   }
   .search .filter .btnFilter:hover {
     background: #DEEBFF;
@@ -677,11 +674,7 @@ footer section a:hover {
   .search .filter .btnFilter .fa-child {
     font-size: 19px;
   }
-  .search .filter .btnFilter h2 {
-    font-size: 17px;
-    margin: 0 0 0 20px;
-    z-index: 2;
-  }
+
   .search .resultRearch {
     display: flex;
     align-items: center;
@@ -1081,7 +1074,7 @@ footer section a:hover {
     align-items: center;
     margin-top: 1.5vw;
   }
-  .search .filter p {
+  .search .filter span {
     font-weight: 800;
     font-size: 1.5vw;
   }
@@ -1089,13 +1082,14 @@ footer section a:hover {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 0.8vw 1.3vw 0.8vw 2.5vw;
+    padding: 0.8vw 1.3vw 0.8vw 4vw;
     margin-left: 1.5vw;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
     background: transparent;
+    font-size: 1.5vw;
   }
   .search .filter .btnFilter:hover {
     background: #DEEBFF;
@@ -1108,16 +1102,13 @@ footer section a:hover {
     border-radius: 50%;
     padding: 1vw;
     left: 0.5vw;
+
   }
   .search .filter .btnFilter .fa-heart,
   .search .filter .btnFilter .fa-child {
     font-size: 1.7vw;
   }
-  .search .filter .btnFilter h2 {
-    font-size: 1.5vw;
-    margin: 0 0 0 1.5vw;
-    z-index: 2;
-  }
+
   .search .resultRearch {
     display: flex;
     align-items: center;
@@ -1531,7 +1522,7 @@ footer section a:hover {
     flex-wrap: wrap;
     margin-top: 6vw;
   }
-  .search .filter p {
+  .search .filter span {
     font-weight: 800;
     font-size: 4vw;
     width: 100%;
@@ -1541,12 +1532,13 @@ footer section a:hover {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 4vw 2vw 4vw 4vw;
+    padding: 4vw 5vw 4vw 10vw;
     margin: 0vw 3vw 3vw 0;
     border: 2px solid #d9d9d9;
     border-radius: 6vw;
     cursor: pointer;
     background: transparent;
+    font-size: 3vw;
   }
   .search .filter .btnFilter i {
     position: absolute;
@@ -1566,11 +1558,7 @@ footer section a:hover {
   .search .filter .btnFilter span i {
     font-size: 4vw;
   }
-  .search .filter .btnFilter h2 {
-    font-size: 3vw;
-    margin: 0 0 0 6vw;
-    z-index: 2;
-  }
+
   .search .resultRearch {
     display: flex;
     align-items: flex-start;
